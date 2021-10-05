@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "Title",
+            "title": "KNN Algorithm",
             "content": ". KNN: What&#39;s it for . simple classification or regeression algorithm simple = low accuracy rather than other Algorithm | . | Regression Find the K closest points to a sample point and return the average value | . | . . The KNN&#8217;s steps are: . Receive an unclassified data; | Measure the distance (Euclidian, Manhattan, Minkowski or Weighted) from the new data to all others data that is already classified; | Gets the K(K is a parameter that you difine) smaller distances; | Check the list of classes had the shortest distance and count the amount of each class that appears; | Takes as correct class the class that appeared the most times; | Classifies the new data with the class that you took in step 5; | How is it used? . Dimensionality reduction stage Avoid sparse data | . | . Reference . KNN (K-Nearest Neighbors) #1 .",
             "url": "https://interkid.github.io/My_Research/2021/10/05/KNN.html",
             "relUrl": "/2021/10/05/KNN.html",
