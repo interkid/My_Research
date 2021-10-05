@@ -119,13 +119,6 @@ window.onload = wrap_img;
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/github/interkid/My_Research/blob/master/_notebooks/2021-10-05-KNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="KNN:-What's-it-for">KNN: What's it for<a class="anchor-link" href="#KNN:-What's-it-for"> </a></h2><ul>
 <li>simple classification or regeression algorithm<ul>
 <li>simple = low accuracy rather than other Algorithm</li>
@@ -182,7 +175,52 @@ the new data to all others data that is already classified;</li>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Reference">Reference<a class="anchor-link" href="#Reference"> </a></h3><p><a href="https://towardsdatascience.com/knn-k-nearest-neighbors-1-a4707b24bd1d">KNN (K-Nearest Neighbors) #1</a></p>
+<h2 id="K-means:-What's-it-for">K-means: What's it for<a class="anchor-link" href="#K-means:-What's-it-for"> </a></h2><ul>
+<li>Unsupervised Learning for clustering</li>
+<li>Non-hierarchical cluster / hierarchical cluster</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://github.com/interkid/My_Research/blob/master/images/k_means.png?raw=1" alt="" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="The-K-means-steps-are:">The K-means steps are:<a class="anchor-link" href="#The-K-means-steps-are:"> </a></h3><ol>
+<li>Select the value of K, to decide the number of clusters to be formed.</li>
+<li>Select random K points which will act as centroids</li>
+<li>Assign each data point, based on their distance from the randomly selected points (Centroid), to the nearest/closest centroid which will form the predefined clusters.</li>
+<li>place a new centroid of each cluster.</li>
+<li>Repeat step no.3</li>
+<li>If any reassignment occurs, then go to step-4 else go to Step 7.</li>
+<li>Finish</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Set randomly centeroid in step2, so It is important first value</p>
+<ul>
+<li>to use effectively setting automatically initial centroid</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Reference">Reference<a class="anchor-link" href="#Reference"> </a></h3><ul>
+<li><a href="https://towardsdatascience.com/knn-k-nearest-neighbors-1-a4707b24bd1d">KNN (K-Nearest Neighbors) #1</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2021/04/k-means-clustering-simplified-in-python/">K Means Clustering Simplified in Python</a></li>
+</ul>
 
 </div>
 </div>
