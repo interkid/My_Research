@@ -126,9 +126,11 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>KNN: What's it for</p>
-<ul>
-<li>simple classification or regeression algorithm</li>
+<h2 id="KNN:-What's-it-for">KNN: What's it for<a class="anchor-link" href="#KNN:-What's-it-for"> </a></h2><ul>
+<li>simple classification or regeression algorithm<ul>
+<li>simple = low accuracy rather than other Algorithm</li>
+</ul>
+</li>
 <li>Regression<ul>
 <li>Find the K closest points to a sample point and return the average value</li>
 </ul>
@@ -140,7 +142,41 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/My_Research/images/copied_from_nb/../images/knn.png" alt="" /></p>
+<p><img src="https://github.com/interkid/My_Research/blob/master/images/knn.png?raw=1" alt="" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="The-KNN&#8217;s-steps-are:">The KNN&#8217;s steps are:<a class="anchor-link" href="#The-KNN&#8217;s-steps-are:"> </a></h3><ol>
+<li>Receive an unclassified data;</li>
+<li>Measure the distance (Euclidian, Manhattan, Minkowski or Weighted) from 
+the new data to all others data that is already classified;</li>
+<li>Gets the K(K is a parameter that you difine) smaller distances;</li>
+<li>Check the list of classes had the shortest distance and count the amount of each class that appears;</li>
+<li>Takes as correct class the class that appeared the most times;</li>
+<li>Classifies the new data with the class that you took in step 5;</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="How-is-it-used?">How is it used?<a class="anchor-link" href="#How-is-it-used?"> </a></h3><ul>
+<li>Dimensionality reduction stage<ul>
+<li>Avoid sparse data</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Reference">Reference<a class="anchor-link" href="#Reference"> </a></h3><p><a href="https://towardsdatascience.com/knn-k-nearest-neighbors-1-a4707b24bd1d">KNN (K-Nearest Neighbors) #1</a></p>
 
 </div>
 </div>
